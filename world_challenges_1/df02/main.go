@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 var dia int
 var mes string
@@ -16,4 +19,6 @@ func main() {
 	fmt.Scanln(&ano)
 
 	fmt.Printf("Você nasceu do dia %v de %v de %v correto?\n", dia, mes, ano)
+
+	time.Sleep(10 * time.Second)
 }
