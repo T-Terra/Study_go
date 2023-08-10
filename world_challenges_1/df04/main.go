@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	fmt.Println("==== DESAFIO 04 ====")
 	var char rune
 	fmt.Print("Digite um caractere: ")
 	fmt.Scanf("%c", &char)
